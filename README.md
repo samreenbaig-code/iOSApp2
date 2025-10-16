@@ -1,25 +1,44 @@
+# Assignment 5 - Location-Aware SwiftUI App
 
-# 🏆 Scavenger Hunt App (iOSApp2)
+## 📱 Overview
 
-A SwiftUI-based Scavenger Hunt App built for iOS.  
-Created for the Mobile iOS 2 Assignment at triOS College.
+This app combines multiple SwiftUI concepts to create a fun and interactive experience using:
+- 📷 Photo Picker
+- 🍎 FruityVice API
+- 🎴 Card Flip logic
+- 📍 GPS Location Tracking
 
-## 📱 Description
+## ✨ Features
 
-This app helps users participate in a scavenger hunt across local businesses.  
-It uses **List**, **CardFlip**, and **PhotoPicker** to create interactive experiences.
+- View and select items using a SwiftUI List
+- Fetch nutritional data using FruityVice API
+- Flip cards with animations
+- Track user’s **real-time location** using CoreLocation
+- Display latitude and longitude
+- Simple, responsive SwiftUI interface
 
-### 🎯 Features
-- List of 10 scavenger hunt locations with clues  
-- Flippable cards showing clue info on front and photo upload on back  
-- Take photo with camera or pick from photo library  
-- Simple SwiftUI architecture (no external libraries)
+## 🧱 Technologies Used
 
-### 🧰 Tech Stack
 - SwiftUI
-- UIKit (for camera & photo picker)
-- Xcode
-- Git & GitHub
+- Combine
+- CoreLocation
+- GitHub for version control
 
-### 🏗 Structure# iOSApp2
-A SwiftUI-based Scavenger Hunt App built for iOS.  
+## 📍 Location Info
+
+The app requests permission to access your location and displays your latitude and longitude in real-time using `CLLocationManager`.
+
+## 🚀 Run the App
+
+1. Open in Xcode
+2. Run in iOS Simulator
+3. Go to `Features → Location → Custom Location`
+4. Enter: `43.6532, -79.3832` (example)
+
+## 🧑‍💻 Author
+
+Samreen Baig  
+Instructor: Doug Jasper  
+TriOS College
+
+  
