@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F001564E2EA13C5500A32DE6 /* MapSnapshotView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001564D2EA13C5500A32DE6 /* MapSnapshotView.swift */; };
+		F00156502EA140FA00A32DE6 /* LocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = F001564F2EA140FA00A32DE6 /* LocationManager.swift */; };
+		F00156522EA14BD400A32DE6 /* FruitReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00156512EA14BD400A32DE6 /* FruitReportView.swift */; };
+		F00156552EA14C3600A32DE6 /* View+PDFExporter.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00156542EA14C3600A32DE6 /* View+PDFExporter.swift */; };
+		F00156572EA14C6400A32DE6 /* ShareSheet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00156562EA14C6400A32DE6 /* ShareSheet.swift */; };
+		F00156592EA14D1D00A32DE6 /* HuntReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00156582EA14D1D00A32DE6 /* HuntReportView.swift */; };
+		F00D24FE2E9FFD7D00E9B8A4 /* LocationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F00D24FD2E9FFD7D00E9B8A4 /* LocationView.swift */; };
 		F06301282E97E19000B3A5D2 /* HuntViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06301272E97E19000B3A5D2 /* HuntViewModel.swift */; };
 		F063012A2E97E62000B3A5D2 /* ResultsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F06301292E97E62000B3A5D2 /* ResultsView.swift */; };
 		F07DBE3E2E95708C00C6CFA0 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = F07DBE3D2E95708C00C6CFA0 /* Place.swift */; };
@@ -22,6 +29,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F001564D2EA13C5500A32DE6 /* MapSnapshotView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapSnapshotView.swift; sourceTree = "<group>"; };
+		F001564F2EA140FA00A32DE6 /* LocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationManager.swift; sourceTree = "<group>"; };
+		F00156512EA14BD400A32DE6 /* FruitReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitReportView.swift; sourceTree = "<group>"; };
+		F00156542EA14C3600A32DE6 /* View+PDFExporter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+PDFExporter.swift"; sourceTree = "<group>"; };
+		F00156562EA14C6400A32DE6 /* ShareSheet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShareSheet.swift; sourceTree = "<group>"; };
+		F00156582EA14D1D00A32DE6 /* HuntReportView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntReportView.swift; sourceTree = "<group>"; };
+		F00D24FD2E9FFD7D00E9B8A4 /* LocationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationView.swift; sourceTree = "<group>"; };
 		F06301272E97E19000B3A5D2 /* HuntViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HuntViewModel.swift; sourceTree = "<group>"; };
 		F06301292E97E62000B3A5D2 /* ResultsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultsView.swift; sourceTree = "<group>"; };
 		F07DBE3D2E95708C00C6CFA0 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
@@ -49,10 +63,19 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F00156532EA14C1800A32DE6 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				F00156542EA14C3600A32DE6 /* View+PDFExporter.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		F06301262E97E17700B3A5D2 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
 				F06301272E97E19000B3A5D2 /* HuntViewModel.swift */,
+				F001564F2EA140FA00A32DE6 /* LocationManager.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -71,6 +94,11 @@
 				F07DBE422E9570BA00C6CFA0 /* PlaceCardView.swift .swift */,
 				F07DBE402E9570AD00C6CFA0 /* PlaceRow.swift */,
 				F06301292E97E62000B3A5D2 /* ResultsView.swift */,
+				F00D24FD2E9FFD7D00E9B8A4 /* LocationView.swift */,
+				F001564D2EA13C5500A32DE6 /* MapSnapshotView.swift */,
+				F00156512EA14BD400A32DE6 /* FruitReportView.swift */,
+				F00156562EA14C6400A32DE6 /* ShareSheet.swift */,
+				F00156582EA14D1D00A32DE6 /* HuntReportView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -94,6 +122,7 @@
 		F0AE90F32E9139400013EE6A /* ScavengerHuntApp */ = {
 			isa = PBXGroup;
 			children = (
+				F00156532EA14C1800A32DE6 /* Extensions */,
 				F06301262E97E17700B3A5D2 /* ViewModel */,
 				F07DBE3F2E95709900C6CFA0 /* Views */,
 				F07DBE3C2E95706A00C6CFA0 /* Models */,
@@ -188,15 +217,22 @@
 			buildActionMask = 2147483647;
 			files = (
 				F0AE90F72E9139400013EE6A /* ContentView.swift in Sources */,
+				F00D24FE2E9FFD7D00E9B8A4 /* LocationView.swift in Sources */,
 				F0AE91032E9139730013EE6A /* Clue.swift in Sources */,
+				F00156592EA14D1D00A32DE6 /* HuntReportView.swift in Sources */,
 				F07DBE412E9570AD00C6CFA0 /* PlaceRow.swift in Sources */,
 				F063012A2E97E62000B3A5D2 /* ResultsView.swift in Sources */,
 				F06301282E97E19000B3A5D2 /* HuntViewModel.swift in Sources */,
 				F07DBE432E9570BA00C6CFA0 /* PlaceCardView.swift .swift in Sources */,
+				F00156572EA14C6400A32DE6 /* ShareSheet.swift in Sources */,
 				F07DBE472E9571E300C6CFA0 /* PhotoPickerView.swift in Sources */,
 				F0AE91052E9139D30013EE6A /* ClueDetailView.swift in Sources */,
 				F0AE90F52E9139400013EE6A /* ScavengerHuntAppApp.swift in Sources */,
 				F07DBE3E2E95708C00C6CFA0 /* Place.swift in Sources */,
+				F00156552EA14C3600A32DE6 /* View+PDFExporter.swift in Sources */,
+				F001564E2EA13C5500A32DE6 /* MapSnapshotView.swift in Sources */,
+				F00156502EA140FA00A32DE6 /* LocationManager.swift in Sources */,
+				F00156522EA14BD400A32DE6 /* FruitReportView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

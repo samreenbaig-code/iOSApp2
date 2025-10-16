@@ -8,5 +8,10 @@ Privacy - Photo Library Usage Description
 Privacy - Photo Library Usage Description
 Privacy - Photo Library Usage Description</key>
 	<string>This app allows you to choose photos for scavenger hunt clues.</string>
+	<key>NSLocationAlwaysAndWhenInUseUsageDescription</key>
+	<string>We need your location to show the map and nearby clues.
+We need your location to show nearby items.
+We need your location to show nearby items.
+We need your location to show nearby items.</string>
 </dict>
 </plist>
